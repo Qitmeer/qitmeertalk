@@ -1,0 +1,9 @@
+<%
+require_asset('/var/www/discourse/plugins/docker_manager/assets/javascripts/upgrade-header.js.handlebars')
+depend_on('/var/www/discourse/plugins/docker_manager/assets/javascripts/discourse')
+depend_on('/var/www/discourse/plugins/docker_manager/assets/javascripts/discourse/components')
+require_asset('/var/www/discourse/plugins/docker_manager/assets/javascripts/discourse/components/upgrade-notice.js.es6')
+depend_on('/var/www/discourse/plugins/docker_manager/assets/javascripts/discourse/templates')
+depend_on('/var/www/discourse/plugins/docker_manager/assets/javascripts/discourse/templates/components')
+require_asset('/var/www/discourse/plugins/docker_manager/assets/javascripts/discourse/templates/components/upgrade-notice.hbs')
+%>

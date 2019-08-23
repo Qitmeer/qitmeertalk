@@ -1,0 +1,16 @@
+<%
+require_asset('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse-local-dates.js.no-module.es6')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/initializers')
+require_asset('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/initializers/discourse-local-dates.js.es6')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/lib')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/lib/discourse-markdown')
+require_asset('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/lib/discourse-markdown/discourse-local-dates.js.es6')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/components')
+require_asset('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/components/discourse-local-dates-create-form.js.es6')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/templates')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/templates/components')
+require_asset('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/templates/components/discourse-local-dates-create-form.hbs')
+depend_on('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/templates/modal')
+require_asset('/var/www/discourse/plugins/discourse-local-dates/assets/javascripts/discourse/templates/modal/discourse-local-dates-create-modal.hbs')
+%>
